@@ -7,7 +7,7 @@ class PropertyAPI extends RESTDataSource {
   }
 
 async allProperties() {
-const fetch = await this.get("xml.php?cl=3164&pid=3485&acc=2352");
+const fetch = await this.get("");
 return fetch.properties;
 }
 
