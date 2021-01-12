@@ -3,7 +3,7 @@ const { RESTDataSource } = require('apollo-datasource-rest');
 class PropertyAPI extends RESTDataSource {
   constructor() {
     super();
-    this.baseURL = "http://xml.propspace.com/feed/";
+    this.baseURL = "";
   }
 
 async allProperties() {
